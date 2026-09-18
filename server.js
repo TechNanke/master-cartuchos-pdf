@@ -419,7 +419,7 @@ app.post('/gerar-pdf', (req, res) => {
   // Finaliza PDF
   pdf.end();
 });
-
+console.log('VERSAO NOVA DO SERVIDOR - MASTER CARTUCHOS');
 
 app.listen(PORT, '0.0.0.0', () => {
   console.log(`Servidor rodando na porta ${PORT}`);
